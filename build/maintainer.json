@@ -44,21 +44,28 @@
     "/35photo/new": [
         "nczitzk"
     ],
-    "/36kr/motif/:mid": [
+    "/36kr/information/:category?": [
         "nczitzk"
     ],
-    "/36kr/news/:category?": [
+    "/36kr/motif/:id": [
         "nczitzk"
     ],
     "/36kr/newsflashes": [
-        "hillerliao"
+        "hillerliao",
+        "nczitzk"
     ],
-    "/36kr/search/article/:keyword": [
+    "/36kr/search/articles/:keyword": [
         "xyqfer",
         "kt286",
         "nczitzk"
     ],
-    "/36kr/user/:uid": [
+    "/36kr/search/newsflashes/:keyword": [
+        "nczitzk"
+    ],
+    "/36kr/topics/:id": [
+        "nczitzk"
+    ],
+    "/36kr/user/:id": [
         "nczitzk"
     ],
     "/423down/:category/:type": [
@@ -377,6 +384,9 @@
         "xyqfer"
     ],
     "/cde/xxgk/:category": [
+        "TonyRL"
+    ],
+    "/cde/zdyz/:category": [
         "TonyRL"
     ],
     "/cde/:channel/:category": [
@@ -1023,6 +1033,9 @@
     "/gov/moe/:type": [
         "Crawler995"
     ],
+    "/gov/moj/aac/news/:type?": [
+        "TonyRL"
+    ],
     "/gov/nmpa/:path+": [
         "TonyRL"
     ],
@@ -1145,6 +1158,9 @@
     ],
     "/hackertalk/": [
         "hyoban"
+    ],
+    "/hakkatv/news/:type?": [
+        "TonyRL"
     ],
     "/hameln/chapter/:id": [
         "huangliangshusheng"
@@ -1990,6 +2006,10 @@
     "/oup/:name": [
         "Fatpandac"
     ],
+    "/outagereport/:name/:count?": [
+        "cxumol",
+        "nczitzk"
+    ],
     "/panewslab/author/:id": [
         "nczitzk"
     ],
@@ -2019,6 +2039,9 @@
     ],
     "/people/:site?/:category?": [
         "nczitzk"
+    ],
+    "/peopo/topic/:topic?": [
+        "TonyRL"
     ],
     "/pianyuan/index/:media?": [
         "greatcodeeer",
@@ -2288,6 +2311,15 @@
     "/sicau/zsjy/:category?": [
         "nczitzk"
     ],
+    "/sinchew/category/:category?": [
+        "nczitzk"
+    ],
+    "/sinchew/latest": [
+        "nczitzk"
+    ],
+    "/sinchew/": [
+        "nczitzk"
+    ],
     "/sis001/forum/:id": [
         "TonyRL"
     ],
@@ -2439,6 +2471,9 @@
     ],
     "/szse/rule": [
         "nczitzk"
+    ],
+    "/taiwannews/hot/:lang?": [
+        "TonyRL"
     ],
     "/taobao/zhongchou/:type?": [
         "xyqfer",
@@ -3699,7 +3734,6 @@
     "/dekudeals/:type": [],
     "/metacritic/release/:platform/:type/:sort?": [],
     "/kkj/news": [],
-    "/outagereport/:name/:count?": [],
     "/sixthtone/news": [],
     "/aiyanxishe/:id/:sort?": [],
     "/huodongxing/explore": [],

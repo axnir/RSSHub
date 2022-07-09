@@ -163,37 +163,70 @@
     ]
   },
   "36kr.com": {
-    "_name": "36kr",
+    "_name": "36氪",
     ".": [
       {
         "title": "资讯",
-        "docs": "https://docs.rsshub.app/new-media.html#_36kr",
-        "source": "/",
-        "target": "/36kr/news"
+        "docs": "https://docs.rsshub.app/new-media.html#_36kr-zi-xun",
+        "source": [
+          "/information/:category",
+          "/"
+        ],
+        "target": "/36kr/information/:category"
       },
       {
         "title": "快讯",
-        "docs": "https://docs.rsshub.app/new-media.html#_36kr",
-        "source": "/",
+        "docs": "https://docs.rsshub.app/new-media.html#_36kr-kuai-xun",
+        "source": [
+          "/newsflashes",
+          "/"
+        ],
         "target": "/36kr/newsflashes"
       },
       {
         "title": "用户文章",
-        "docs": "https://docs.rsshub.app/new-media.html#_36kr",
-        "source": "/user/:uid",
-        "target": "/36kr/user/:uid"
+        "docs": "https://docs.rsshub.app/new-media.html#_36kr-yong-hu-wen-zhang",
+        "source": [
+          "/user/:id",
+          "/"
+        ],
+        "target": "/36kr/user/:id"
       },
       {
         "title": "主题文章",
-        "docs": "https://docs.rsshub.app/new-media.html#_36kr",
-        "source": "/motif/:mid",
-        "target": "/36kr/motif/:mid"
+        "docs": "https://docs.rsshub.app/new-media.html#_36kr-zhu-ti-wen-zhang",
+        "source": [
+          "/motif/:id",
+          "/"
+        ],
+        "target": "/36kr/motif/:id"
+      },
+      {
+        "title": "专题文章",
+        "docs": "https://docs.rsshub.app/new-media.html#_36kr-zhuan-ti-wen-zhang",
+        "source": [
+          "/topics/:id",
+          "/"
+        ],
+        "target": "/36kr/topics/:id"
       },
       {
         "title": "搜索文章",
-        "docs": "https://docs.rsshub.app/new-media.html#_36kr",
-        "source": "/search/articles/:keyword",
-        "target": "/36kr/search/article/:keyword"
+        "docs": "https://docs.rsshub.app/new-media.html#_36kr-sou-suo-wen-zhang",
+        "source": [
+          "/search/articles/:keyword",
+          "/"
+        ],
+        "target": "/36kr/search/articles/:keyword"
+      },
+      {
+        "title": "搜索快讯",
+        "docs": "https://docs.rsshub.app/new-media.html#_36kr-sou-suo-kuai-xun",
+        "source": [
+          "/search/newsflashes/:keyword",
+          "/"
+        ],
+        "target": "/36kr/search/newsflashes/:keyword"
       }
     ]
   },
@@ -1937,6 +1970,22 @@
           "/main/xxgk/listpage/4b5255eb0a84820cef4ca3e8b6bbe20c"
         ],
         "target": "/cde/xxgf/cliniCal"
+      },
+      {
+        "title": "发布通告 - 指导原则专栏",
+        "docs": "https://docs.rsshub.app/government.html#guo-jia-yao-pin-shen-ping-wang-zhan-shou-ye",
+        "source": [
+          "/main/xxgk/listpage/2853510d929253719601db17b8a9fd81"
+        ],
+        "target": "/cde/zdyz/domesticGuide"
+      },
+      {
+        "title": "征求意见 - 指导原则专栏",
+        "docs": "https://docs.rsshub.app/government.html#guo-jia-yao-pin-shen-ping-wang-zhan-shou-ye",
+        "source": [
+          "/main/xxgk/listpage/3c49fad55caad7a034c263cfc2b6eb9c"
+        ],
+        "target": "/cde/zdyz/opinionList"
       }
     ]
   },
@@ -4630,6 +4679,18 @@
       }
     ]
   },
+  "moj.gov.tw": {
+    "_name": "台灣法務部廉政署",
+    "www.aac": [
+      {
+        "title": "最新消息",
+        "docs": "https://docs.rsshub.app/government.html#zhong-hua-ren-min-gong-he-guo-jiao-yu-bu",
+        "source": [
+          "/7204/7246/"
+        ]
+      }
+    ]
+  },
   "nmpa.gov.cn": {
     "_name": "国家药品监督管理局",
     ".": [
@@ -5020,6 +5081,17 @@
           "/"
         ],
         "target": "/hackertalk"
+      }
+    ]
+  },
+  "hakkatv.org.tw": {
+    "_name": "客家電視台",
+    ".": [
+      {
+        "title": "新聞首頁 - 客家電視台",
+        "docs": "https://docs.rsshub.app/traditional-media.html#ke-jia-dian-shi-tai",
+        "source": "/news",
+        "target": "/hakkatv/news"
       }
     ]
   },
@@ -9019,6 +9091,18 @@
       }
     ]
   },
+  "outage.report": {
+    "_name": "Outage.Report",
+    ".": [
+      {
+        "title": "Report",
+        "docs": "https://docs.rsshub.app/forecast.html#outage-report",
+        "source": [
+          "/"
+        ]
+      }
+    ]
+  },
   "panewslab.com": {
     "_name": "PANews",
     ".": [
@@ -9064,6 +9148,17 @@
         "docs": "https://docs.rsshub.app/traditional-media.html#ren-min-wang-ling-dao-liu-yan-ban",
         "source": "/",
         "target": "/people/liuyan/:id/:state?"
+      }
+    ]
+  },
+  "peopo.org": {
+    "_name": "PeoPo 公民新聞",
+    ".": [
+      {
+        "title": "新聞分類",
+        "docs": "https://docs.rsshub.app/new-media.html#peopo-gong-min-xin-wen",
+        "source": "/topic/:topicId",
+        "target": "/peopo/topic/:topicId"
       }
     ]
   },
@@ -10061,6 +10156,36 @@
       }
     ]
   },
+  "sinchew.com.my": {
+    "_name": "星洲网",
+    ".": [
+      {
+        "title": "首页",
+        "docs": "https://docs.rsshub.app/traditional-media.html#xing-zhou-wang-shou-ye",
+        "source": [
+          "/"
+        ],
+        "target": "/sinchew"
+      },
+      {
+        "title": "最新",
+        "docs": "https://docs.rsshub.app/traditional-media.html#xing-zhou-wang-zui-xin",
+        "source": [
+          "/latest",
+          "/"
+        ],
+        "target": "/sinchew/latest"
+      },
+      {
+        "title": "分类",
+        "docs": "https://docs.rsshub.app/traditional-media.html#xing-zhou-wang-fen-lei",
+        "source": [
+          "/category/:category",
+          "/"
+        ]
+      }
+    ]
+  },
   "sis001.com": {
     "_name": "第一会所",
     ".": [
@@ -10689,6 +10814,17 @@
           "/"
         ],
         "target": "/szse/projectdynamic/:type?/:stage?/:status?"
+      }
+    ]
+  },
+  "taiwannews.com.tw": {
+    "_name": "台灣英文新聞",
+    ".": [
+      {
+        "title": "最新熱門消息",
+        "docs": "httsp://docs.rsshub.app/traditional-media.html#tai-wan-ying-wen-xin-wen",
+        "source": "/:lang/index",
+        "target": "/taiwannews/hot/:lang"
       }
     ]
   },
